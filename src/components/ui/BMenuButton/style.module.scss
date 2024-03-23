@@ -1,0 +1,35 @@
+.menu-burger {
+	width: 128px;
+	height: 48px;
+	padding: 0 24px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #1551e5;
+	border: none;
+	border-radius: 8px;
+	text-align: center;
+	color: #fff;
+	cursor: pointer;
+
+	font-family: 'GothamPro';
+	font-weight: 700;
+	font-style: normal;
+	font-size: 14px;
+
+	@media (max-width: 1200px) {
+		margin: 0 4px;
+	}
+
+	@media (max-width: 720px) {
+		padding: 0 8px;
+		width: max-content;
+	}
+
+	span {
+		@media (max-width: 720px) {
+			display: none;
+		}
+	}
+}

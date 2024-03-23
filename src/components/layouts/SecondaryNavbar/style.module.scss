@@ -1,0 +1,33 @@
+.secondary-navbar {
+	box-sizing: border-box;
+	display: flex;
+	align-items: center;
+
+	ul {
+		margin: 0;
+		padding: 0;
+		display: flex;
+		list-style-type: '/';
+
+		font-family: 'GothamPro';
+		font-weight: 400;
+		font-style: normal;
+		font-size: 16px;
+		color: #828ead;
+
+		li {
+			padding: 4px;
+			box-sizing: border-box;
+			padding-left: 4px;
+			margin-left: 14px;
+			cursor: pointer;
+			user-select: none;
+
+			&:first-child {
+				list-style-type: none;
+				padding-left: 0;
+				margin-left: 0;
+			}
+		}
+	}
+}

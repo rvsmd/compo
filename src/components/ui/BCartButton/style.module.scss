@@ -1,0 +1,49 @@
+.basket-container {
+	width: 100%;
+	max-width: 284px;
+	height: 56px;
+	padding: 10px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: none;
+	border-radius: 8px;
+
+	font-family: 'GothamPro';
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+
+	span {
+		margin-left: 12px;
+	}
+}
+
+.basket-container-primary {
+	background-color: #1551e5;
+	color: #fff;
+	cursor: pointer;
+}
+
+.basket-container-light {
+	justify-content: space-between;
+	background-color: transparent;
+	border: 3px solid #1551e5;
+	color: #000;
+
+	@media (max-width: 720px) {
+		padding: 0;
+	}
+}
+
+.icon-wrap {
+	width: 32px;
+	height: 32px;
+	padding: 0;
+	border: none;
+	font: inherit;
+	color: inherit;
+	background-color: transparent;
+	cursor: pointer;
+}

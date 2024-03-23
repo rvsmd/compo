@@ -1,0 +1,37 @@
+.search-container {
+	margin: 0 15px;
+	flex: 1;
+	max-width: 731px;
+	position: relative;
+	display: flex;
+	flex-direction: column;
+}
+
+.search-nothing {
+	position: absolute;
+	top: 52px;
+	left: 0;
+}
+
+.preview-container {
+	width: 100%;
+	position: absolute;
+	top: 48px;
+	left: 0;
+}
+
+.search-preview-container {
+	margin-top: 8px;
+	width: 100%;
+	padding: 10px;
+	position: relative;
+	box-sizing: border-box;
+	max-height: 300px;
+	overflow-y: auto;
+
+	background: #fff;
+	border: 1px solid #bababa;
+	border-radius: 5px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 30%);
+	z-index: 3;
+}
